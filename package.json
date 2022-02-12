@@ -1,0 +1,29 @@
+{
+  "name": "videocallapp",
+  "version": "1.0.0",
+  "description": "\"# Video-call-app\"",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurajMondem/Video-call-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SurajMondem/Video-call-app/issues"
+  },
+  "homepage": "https://github.com/SurajMondem/Video-call-app#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
